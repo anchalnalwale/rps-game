@@ -69,6 +69,32 @@ h1 {
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
+#reset-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;
+}
 
+#reset-btn:hover {
+    background-color: #ff1a1a;
+}
 
-
+#msg {
+    font-size: 1.3rem;
+    background-color: #41337A;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 12px;
+    margin-top: 40px;
+    text-align: center;
+    min-width: 300px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;
+}
